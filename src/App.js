@@ -32,7 +32,7 @@ function App() {
     setSearch(event.target.value)
   }
 
-  const Url = `https://pixabay.com/api/?key=17392926-1008cec1ed6e3cf7088aafc7e&page=${Page}&q=${search}`;
+  const Url = `https://pixabay.com/api/?key=&page=${Page}&q=${search}`;
 
   const getData = () => {
     setloading(true);
